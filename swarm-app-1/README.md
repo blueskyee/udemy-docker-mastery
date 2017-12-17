@@ -47,3 +47,4 @@ docker service create --name db --network backend --mount type=volume,source=db-
     - on backend network
     - 1 replica
 docker service create --name result --network backend -p 5001:80 dockersamples/examplevotingapp_result:before
+
